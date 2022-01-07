@@ -1,0 +1,4 @@
+**/.DS_Store
+**/target
+04-consul-template/config.ini
+04-consul-template/nginx.conf
