@@ -61,9 +61,10 @@ consul kv put config/myApp/my.prop hello!
 ### 4.1 Consul KV put for demo
 
 ```bash
-consul kv put template/deployment/scale 5
-consul kv put template/deployment/tag 1.14.1
+consul kv put config "address=127.0.0.1"
 ```
+
+nginx conf sample : <https://www.nginx.com/resources/wiki/start/topics/examples/full/>
 
 ### 4.2 Run consul-template
 
